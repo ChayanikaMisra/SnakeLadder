@@ -22,9 +22,9 @@ public class SnakeLadderBoard {
 
     public SnakeLadderBoard(int size) {
         this.size = size;
-        this.snakes = new ArrayList<Snake>();
-        this.ladders = new ArrayList<Ladder>();
-        this.playerPositions = new HashMap<Player, Integer>();
+        this.snakes = new ArrayList<>();
+        this.ladders = new ArrayList<>();
+        this.playerPositions = new HashMap<>();
         this.isGameCompleted = false;
     }
 

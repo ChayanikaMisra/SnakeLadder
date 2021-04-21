@@ -12,12 +12,12 @@ public class DriverClass {
         Scanner scanner = new Scanner(System.in);
 
         int noOfSnakes = scanner.nextInt();
-        List<Snake> snakes = new ArrayList<Snake>();
+        List<Snake> snakes = new ArrayList<>(noOfSnakes);
         for (int i = 0; i < noOfSnakes; i++) {
             snakes.add(new Snake(scanner.nextInt(), scanner.nextInt()));
         }
         int noOfLadders = scanner.nextInt();
-        List<Ladder> ladders = new ArrayList<Ladder>();
+        List<Ladder> ladders = new ArrayList<>(noOfLadders);
         for (int i = 0; i < noOfLadders; i++) {
             ladders.add(new Ladder(scanner.nextInt(), scanner.nextInt()));
         }
